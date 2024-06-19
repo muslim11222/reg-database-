@@ -1,0 +1,60 @@
+* {
+     box-sizing: border-box;
+}
+
+body {
+     background-image: linear-gradient(yellow, white);
+}
+
+h1 {
+     text-align: center;  
+}
+
+.container {
+ width: 70%;
+ margin: 0 auto;
+}
+
+input {
+     width: 100%;
+     padding: 10px;
+     margin: 8px;
+     border: 2px solid #000;
+     font-size: 18px;
+     font-weight: bold;
+}
+
+::placeholder {
+     text-align: center;
+}
+
+.GenderContainer {
+     text-align: center;
+     font-size: 15px;
+     font-weight: bold;
+     font-size: 20px;
+}
+
+.gender1 {
+     width: 10%;
+}
+
+label {
+     font-weight: bold;
+     padding: 10px;
+     font-size: 25px;
+}
+
+.btn {
+     text-align: center;
+     margin: 15px;
+}
+
+button {
+     width: 20%;
+     padding: 15px;
+     border-radius: 15px;
+     background-color: rgb(20, 266, 15);
+     font-size: 20px;
+     font-weight: bold;
+}
